@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-color: #333;
+  color: #fff;
+}
+
+input {
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+.food {
+  display: grid;
+  grid-template-columns: repeat(4, 2fr);
+  width: 700px;
+  margin: auto;
+}
+
+.food-content {
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+}
+
+.food-content img {
+  border: 1px solid #fff;
+}
+
+.para {
+  background-color: #fff;
+  color: #333;
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  right: 50%;
+  z-index: 100;
+}
+
+.p {
+  text-align: center;
+  margin: auto;
+}
+
+.header {
+  /* margin-left: 50px; */
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 100px;
+}
